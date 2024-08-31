@@ -1,0 +1,25 @@
+/* Add a box model to demonstrate padding and margin */
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: grey;
+  border: 2px solid #070707;
+  display: inline-block;
+  margin: 20px; /* Add a margin to separate the boxes */
+}
+
+/* Add padding to the first box */
+.box.padding {
+  padding: 30px; /* Add 30px padding on all sides */
+}
+
+/* Add margin to the second box */
+.box.margin {
+  margin: 40px; /* Add 40px margin on all sides */
+}
+
+/* Add both padding and margin to the third box */
+.box.both {
+  padding: 20px; /* Add 20px padding on all sides */
+  margin: 30px; /* Add 30px margin on all sides */
+}

@@ -1,0 +1,64 @@
+/* Style the pagination links */
+.pagination {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  margin: 0 10px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #337ab7;
+  transition: color 0.2s ease;
+}
+
+.pagination a:hover {
+  color: #f00713;
+}
+
+/* Style the pagination links with spaces */
+.pagination-spaced {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination-spaced li {
+  margin: 0 20px;
+}
+
+.pagination-spaced a {
+  text-decoration: none;
+  color: #337ab7;
+  transition: color 0.2s ease;
+}
+
+.pagination-spaced a:hover {
+  color: #23527c;
+}
+
+/* Define the animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to the spinning icon */
+.spinning-icon {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}

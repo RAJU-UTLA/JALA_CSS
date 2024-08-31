@@ -1,0 +1,9 @@
+.fixed-table {
+  table-layout: fixed;
+  width: 50%;
+}
+
+.none-table {
+  table-layout: none;
+  width: 50%;
+}

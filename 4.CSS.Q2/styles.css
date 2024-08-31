@@ -1,0 +1,15 @@
+.disc-list {
+  list-style-type: disc;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.none-list {
+  list-style-type: none;
+}
